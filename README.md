@@ -43,7 +43,7 @@ No special installation is required. Simply open the `index.html` file in any mo
 
 # Customization
 
-- To change the magazine title rotation, edit the titleTexts array in script.js.
+- To change the magazine title rotation, edit the `titleTexts` array in `script.js`.
 
 - Modify styles in `style.css` to change colors, fonts, or layout.
 
