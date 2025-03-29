@@ -22,12 +22,13 @@ This project is an interactive and futuristic web-based magazine that explores t
 
 # Project Structure
 
-project-folder/
- - ├── index.html                #  Main HTML file
- - ├── style.css                 #  Styling and animations
- - ├── script.js                 #  JavaScript logic for interactivity
- - ├── cover-image.jpg           #  Magazine cover image (replace with actual filename)
- - ├── README.md                 #  Project documentation
+project-folder/  
+ ├── index.html        #  Main HTML file  
+ ├── style.css         #  Styling and animations  
+ ├── script.js         #  JavaScript logic for interactivity  
+ ├── cover-image.jpg   #  Magazine cover image (replace with actual filename)  
+ ├── README.md         #  Project documentation  
+
 
 # How to Use
 
