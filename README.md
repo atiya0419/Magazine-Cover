@@ -14,20 +14,20 @@ This project is an interactive and futuristic web-based magazine that explores t
 
 # Technologies Used
 
--**HTML**: Structure of the magazine layout
+- **HTML**: Structure of the magazine layout
 
--**CSS**: Styling, animations, and transitions
+- **CSS**: Styling, animations, and transitions
 
--**JavaScript**: Handles dynamic behavior and interactivity
+- **JavaScript**: Handles dynamic behavior and interactivity
 
 # Project Structure
 
 project-folder/
- ├── index.html       # Main HTML file
- ├── style.css        # Styling and animations
- ├── script.js        # JavaScript logic for interactivity
- ├── images/          # Folder containing images
- ├── README.md        # Project documentation
+ - ├── index.html       # Main HTML file
+ - ├── style.css        # Styling and animations
+ - ├── script.js        # JavaScript logic for interactivity
+ - ├── images/          # Folder containing images
+ - ├── README.md        # Project documentation
 
 # How to Use
 
