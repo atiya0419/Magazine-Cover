@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Magazine Container */
+.magazine-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Magazine Cover */
+.magazine-cover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    width: 350px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.magazine-cover:hover {
+    transform: scale(1.05);
+}
+
+/* Title */
+.magazine-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #6bd1ff, #ff69b4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+/* Image */
+.magazine-cover img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.magazine-cover img:hover {
+    transform: scale(1.03);
+}
+
+/* Caption */
+.caption {
+    margin-top: 15px;
+}
+
+.caption h2 {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.caption p {
+    font-style: italic;
+    color: #b0b0b0;
+}
+
+/* Subscribe Button */
+.subscribe-btn {
+    background: linear-gradient(90deg, #ff5733, #ff6b81);
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.subscribe-btn:hover {
+    background: linear-gradient(90deg, #ff6b81, #ff5733);
+    box-shadow: 0px 0px 10px rgba(255, 105, 180, 0.6);
+    transform: scale(1.1);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Lora', serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.magazine-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.magazine-container:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.3);
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: #ddd;
+    margin-top: 10px;
+}
+
+button {
+    background: linear-gradient(45deg, #ff6a00, #ff4500);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff4500, #ff1100);
+    box-shadow: 0px 0px 10px rgba(255, 100, 50, 0.8);
+    transform: scale(1.05);
+}
